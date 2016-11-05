@@ -1,0 +1,12 @@
+.racetrack {
+  border: 2px solid black;
+  background: url("../images/grassTrack.jpg");
+  background-size: 80%;
+  background-position: center;
+  height: 50em;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 0;
+
+
+}
