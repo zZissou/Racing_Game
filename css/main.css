@@ -39,7 +39,7 @@
 
 .scoreboard {
   border: 5px solid black;
-  width: 50em;
+  width: 100;
   height: 50em;
 }
 
@@ -49,9 +49,17 @@ button {
 }
 
 .score_one {
-  position: relative;
+  float: left;
   border: 5px solid black;
   width: 10em;
   height: 50em;
   font-size: 50px;
 }
+
+ .score_two {
+   float: right;
+   border: 5px solid black;
+   width: 10em;
+   height: 50em;
+   font-size: 50px;
+ }
