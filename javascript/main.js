@@ -16,7 +16,7 @@ $(document).ready(function() {
 
   $(document).keydown(function(e) {
 
-    if (e.keyCode === 191) {
+    if (e.keyCode === 81) {
       $('.car_one').css('left', '+=10px');
       var car_one = $('.car_one').css('left');
       if ((parseInt(car_one, startLine) > finishLine)) {
@@ -26,7 +26,7 @@ $(document).ready(function() {
         }
     }
 
-    if (e.keyCode === 90) {
+    if (e.keyCode === 80) {
       $('.car_two').css('left', '+=10px');
       var car_two = $('.car_two').css('left');
       if ((parseInt($car_two.css('left'), startLine) > finishLine)) {
